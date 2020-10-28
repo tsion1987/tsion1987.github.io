@@ -2,25 +2,29 @@
 <html>
 <head>
 	<title>Mywebsite</title>
-	    <style>
-            #container {
-                display: flex;
-                flex-wrap: wrap;
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
             }
 
-            #container > div {
-                background-color: green;
+            .grid-item {
+                background-color: white;
                 font-size: 20px;
-                margin: 20px;
                 padding: 20px;
-                width: 200px;
+                text-align: center;
             }
         </style>
 
 </head>
 <body>
 <h1> Welcome to my website!!</h1>
-	  <div id="container">
+	  <div class="grid">
             <div>Some text 1!</div>
             <div>Some text 2!</div>
             <div>Some text 3!</div>
