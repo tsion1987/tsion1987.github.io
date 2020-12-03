@@ -29,9 +29,9 @@ a {
 #pfv_logo
 {
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	display:block!important;
-	height:150px;
+	max-height:60px;
 	width:auto;
 	
 }
