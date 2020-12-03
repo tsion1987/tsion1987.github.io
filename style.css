@@ -10,30 +10,24 @@
 	height: 200px;
 	background-color: #d8e0ed;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #d8e0ed;
+a { 
+    display: block;
+    padding: 10px 30px;
+}
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;      
+}
+#unorderdlist  {
+	
+    display: flex;
+    color:white; 
+    font-style: bold;
+    float: right;
+    justify-content:space-around;
+    list-style-type:none;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
 #pfv_logo
 {
 	margin-top: 20px;
