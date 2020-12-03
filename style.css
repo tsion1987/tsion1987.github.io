@@ -21,7 +21,9 @@ a {
 #unorderdlist  {
 	
     display: flex;
-    color:white; 
+    color:white;
+    font:18px;	
+    font-weight: bold;
     font-style: bold;
     float: right;
     justify-content:space-around;
