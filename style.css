@@ -20,7 +20,11 @@
 {
 	width: auto;
 	height: 200px;
-	background-color: black;
+	background-color: #d8e0ed;
+}
+a { 
+    display: block;
+    padding: 10px 30px;
 }
 #pfv_logo
 {
@@ -29,6 +33,7 @@
 	display:block!important;
 	max-height:60px;
 	width:auto;
+	height:150;
 }
 
 .assist-banner
