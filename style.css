@@ -3,28 +3,36 @@
 {
 	background-image:url('images6.jpeg');
 }
-#div_top_hypers {
-    background-color:#eeeeee;
-    display:inline;      
-}
-#unorderdlist  {
-	
-    display: flex;
-    color:white; 
-    font-style: bold;
-    float: right;
-    justify-content:space-around;
-    list-style-type:none;
-}
+
 #heading
 {
 	width: auto;
 	height: 200px;
 	background-color: #d8e0ed;
 }
-a { 
-    display: block;
-    padding: 10px 30px;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 #pfv_logo
 {
